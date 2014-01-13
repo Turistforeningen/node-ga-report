@@ -1,0 +1,7 @@
+src/
+test/
+npm-debug.log
+.vagrant/
+Vagrantfile
+node_modules
+*.swp
