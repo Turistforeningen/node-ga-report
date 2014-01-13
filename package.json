@@ -1,0 +1,42 @@
+{
+  "name": "ga-report",
+  "version": "1.0.0",
+  "description": "Unofficial NodeJS wrapper for the Google Analytics Core Reporting API",
+  "main": "lib/ga-report.js",
+  "scripts": {
+    "build": "coffee --bare --compile --output lib/ src/*.coffee",
+    "prepublish": "coffee --bare --compile --output lib/ src/*.coffee",
+    "postpublish": "rm -rf lib",
+    "test": "./node_modules/.bin/mocha -b -c --check-leaks test/suite.coffee -R progress -r coffee-script -w",
+    "test-drone": "node_modules/.bin/mocha test/suite.coffee -R spec -r coffee-script"
+  },
+  "engines": {
+    "node": ">= 0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turistforeningen/node-ga-report.git"
+  },
+  "keywords": [
+    "Goole",
+    "Analtyics",
+    "Report",
+    "Reporting",
+    "Statistics",
+    "Metrics",
+    "Analytics"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turistforeningen/node-ga-report/issues"
+  },
+  "homepage": "https://github.com/Turistforeningen/node-ga-report",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.17.0"
+  },
+  "dependencies": {
+    "request": "~2.31.0"
+  }
+}
