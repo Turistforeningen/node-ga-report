@@ -64,3 +64,10 @@ report.get(options, functon(err, data) {
 )};
 ```
 
+# Other Documentation
+
+ * [GA Query Explorer](http://ga-dev-tools.appspot.com/explorer/)
+ * [GA Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/reference)
+ * [GA Management API](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/)
+
+
