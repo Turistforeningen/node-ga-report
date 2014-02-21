@@ -37,9 +37,9 @@ report.getAccounts(function(err, accounts) {
 });
 ```
 
-## Get Webproperties
+## Get Web Properties
 
-[Web Properties object documentation](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties).
+[Web Property object documentation](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties).
 
 ```javascript
 report.getWebproperties(accountId, function(err, webproperties) {
