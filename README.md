@@ -46,7 +46,7 @@ report.getWebproperties(accountId, function(err, webproperties) {
 });
 ```
 
-## Get Profiles
+## Get Views (Profiles)
 
 ```javascript
 report.getProfiles(accountId, webpropertyId, function(err, profile) {
