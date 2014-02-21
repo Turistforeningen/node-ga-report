@@ -3,6 +3,12 @@ Google Analtyics Reporting [![Build Status](https://drone.io/github.com/Turistfo
 
 NodeJS wrapper for Google Analytics Core Reporting API
 
+# Install
+
+```bash
+npm install ga-report
+```
+
 # API
 
 ## Instanciate
