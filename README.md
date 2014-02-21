@@ -26,6 +26,8 @@ var report.once('ready', function() {
 
 ## Get Accounts
 
+[Account object documentation](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/accounts).
+
 ```javascript
 report.getAccounts(function(err, accounts) {
   console.error(err);
@@ -37,6 +39,8 @@ report.getAccounts(function(err, accounts) {
 
 ## Get Webproperties
 
+[Web Properties object documentation](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties).
+
 ```javascript
 report.getWebproperties(accountId, function(err, webproperties) {
   console.error(err);
@@ -47,6 +51,8 @@ report.getWebproperties(accountId, function(err, webproperties) {
 ```
 
 ## Get Views (Profiles)
+
+[Profile object documentation](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/profiles).
 
 ```javascript
 report.getProfiles(accountId, webpropertyId, function(err, profile) {
