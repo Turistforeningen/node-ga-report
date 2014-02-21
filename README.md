@@ -5,6 +5,8 @@ NodeJS wrapper for Google Analytics Core Reporting API
 
 # Install
 
+[![NPM](https://nodei.co/npm/ga-report.png)](https://nodei.co/npm/ga-report/)
+
 ```bash
 npm install ga-report
 ```
