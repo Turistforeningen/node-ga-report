@@ -1,11 +1,11 @@
 Google Analtyics Reporting [![Build Status](https://drone.io/github.com/Turistforeningen/node-ga-report/status.png)](https://drone.io/github.com/Turistforeningen/node-ga-report/latest)
 ==========================
 
+[![NPM](https://nodei.co/npm/ga-report.png)](https://nodei.co/npm/ga-report/)
+
 NodeJS wrapper for Google Analytics Core Reporting API
 
 # Install
-
-[![NPM](https://nodei.co/npm/ga-report.png)](https://nodei.co/npm/ga-report/)
 
 ```bash
 npm install ga-report
