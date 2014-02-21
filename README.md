@@ -46,10 +46,10 @@ report.getWebproperties(accountId, function(err, webproperties) {
 });
 ```
 
-## Get Webproperties
+## Get Profiles
 
 ```javascript
-report.getWebproperties(accountId, webpropertyId, function(err, profile) {
+report.getProfiles(accountId, webpropertyId, function(err, profile) {
   console.error(err);
   for (var i = 0; i < profiles.length; i++) {
     console.oog(profiles[i]);
