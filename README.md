@@ -1,4 +1,4 @@
-Google Analtyics Reporting [![Build Status](https://drone.io/github.com/Turistforeningen/node-ga-report/status.png)](https://drone.io/github.com/Turistforeningen/node-ga-report/latest)
+Google Analytics Reporting [![Build Status](https://drone.io/github.com/Turistforeningen/node-ga-report/status.png)](https://drone.io/github.com/Turistforeningen/node-ga-report/latest)
 ==========================
 
 [![NPM](https://nodei.co/npm/ga-report.png)](https://nodei.co/npm/ga-report/)
