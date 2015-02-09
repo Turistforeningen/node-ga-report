@@ -1,6 +1,8 @@
 Google Analytics Reporting [![Build Status](https://drone.io/github.com/Turistforeningen/node-ga-report/status.png)](https://drone.io/github.com/Turistforeningen/node-ga-report/latest)
 ==========================
 
+[![Join the chat at https://gitter.im/Turistforeningen/node-ga-report](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Turistforeningen/node-ga-report?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![NPM](https://nodei.co/npm/ga-report.png?downloads=true)](https://www.npmjs.org/package/ga-report)
 
 NodeJS wrapper for Google Analytics Core Reporting API
