@@ -18,10 +18,10 @@ npm install ga-report
 ## Instanciate
 
 ```javascript
-Report = require('ga-report');
+var Report = require('ga-report');
 
-var report = new Report('user@gmail.com', 'mypassword');
-var report.once('ready', function() {
+var report = new Report({'username':'user@gmail.com', 'password':'mypassword'});
+report.once('ready', function() {
   // ready to report
 });
 ```
@@ -74,10 +74,10 @@ var options = {
   'end-date': '2013-10-31',
   'metrics': 'ga:visits,ga:bounces'
 };
-report.get(options, functon(err, data) {
+report.get(options, function(err, data) {
   if (err) console.error(err);
   console.dir(data);
-)};
+});
 ```
 
 # Other Documentation
